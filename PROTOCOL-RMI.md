@@ -183,7 +183,7 @@ This is a list of known commands:
 | `8415 0101 0000 0000 0100 0000 01` | Switch to fan speed 1                                                           |
 | `8415 0101 0000 0000 0100 0000 02` | Switch to fan speed 2                                                           |
 | `8415 0101 0000 0000 0100 0000 03` | Switch to fan speed 3                                                           |
-| `8415 0106 0000 0000 5802 0000 03` | Boost mode: start for 10m (= 600 seconds = `0x0258`)                            |
+| `8415 0106 0000 0000 0258 0000 03` | Boost mode: start for 10m (= 600 seconds = `0x0258`)                            |
 | `8515 0106`                        | Boost mode: end                                                                 |
 | `8515 0801`                        | Switch to auto mode                                                             |
 | `8415 0801 0000 0000 0100 0000 01` | Switch to manual mode                                                           |
